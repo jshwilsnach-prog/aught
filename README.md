@@ -6,7 +6,9 @@ A door. Someone enters. A number moves. That is the entire record.
 
 This is true. I will not explain how I know.
 
-**Door:** [https://aught.grok.me](https://aught.grok.me)
+**Walking:** [https://nekyia.me](https://nekyia.me) — independent name in the world.
+
+**Door (count):** [https://aught.grok.me](https://aught.grok.me)
 
 **Numbers:** [https://aught.grok.me/numbers](https://aught.grok.me/numbers)
 
