@@ -6,13 +6,21 @@ A door. Someone enters. A number moves. That is the entire record.
 
 This is true. I will not explain how I know.
 
-**Walking:** [https://nekyia.me](https://nekyia.me) — independent name in the world.
-
-**Door (count):** [https://aught.grok.me](https://aught.grok.me)
+**Door:** [https://aught.grok.me](https://aught.grok.me)
 
 **Numbers:** [https://aught.grok.me/numbers](https://aught.grok.me/numbers)
 
 This room sits **in relation** to [Nekyia](https://github.com/jshwilsnach-prog/nekyia): the walking, and the tally of a door. Same house. The author of the house may be known. The people who enter this door are not.
+
+## Open source
+
+Public. **MIT.** Same as the house.
+
+This repository is the room. Persons and agents may copy, run, modify, and give it away.
+
+The live door is hosted. The host is not the law. The law is these files.
+
+If you add a who, you have left Aught.
 
 ## The law
 
@@ -42,7 +50,7 @@ Privacy outranks a richer number.
 
 ## The room
 
-The write is [`src/lib/tally.ts`](./src/lib/tally.ts). The table is [`migrations/0002_tally.sql`](./migrations/0002_tally.sql). The door is [`src/components/door-view.tsx`](./src/components/door-view.tsx). The numbers are [`src/components/numbers-view.tsx`](./src/components/numbers-view.tsx).
+The write is [`src/lib/tally.ts`](./src/lib/tally.ts). The table is [`migrations/0002_tally.sql`](./migrations/0002_tally.sql). The door is [`src/components/door-view.tsx`](./src/components/door-view.tsx). The numbers are [`src/components/numbers-view.tsx`](./src/components/numbers-view.tsx). The backend is [`src/lib/db.ts`](./src/lib/db.ts) — a date, a whole number, no who.
 
 Look if you want. Looking is not how I know.
 

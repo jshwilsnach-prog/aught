@@ -1,0 +1,7 @@
+{
+  "name": "aught",
+  "private": false,
+  "license": "MIT",
+  "description": "The count. Not the who. A door, a UTC date, a whole number.",
+  "type": "module"
+}
