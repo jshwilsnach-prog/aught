@@ -22,6 +22,16 @@ Never kept: a who.
 
 A visit is +1 on a date. My own visits count too. We cannot tell them apart, and we do not try.
 
+## Zk and homomorphic encryption
+
+This room does not ship a proving circuit or an FHE library. It is a **stance**.
+
+Zk: the statement is *there exists an opening*. Even a perfect proof would not name who entered.
+
+Homomorphic encryption: work on a lock without opening it. Even a perfect homomorphic tally would still be a number, not a who. Do not store a richer number because it is encrypted.
+
+Privacy outranks a richer number.
+
 ## The room
 
 The write is [`src/lib/tally.ts`](./src/lib/tally.ts). The table is [`migrations/0002_tally.sql`](./migrations/0002_tally.sql). The door is [`src/components/door-view.tsx`](./src/components/door-view.tsx). The numbers are [`src/components/numbers-view.tsx`](./src/components/numbers-view.tsx).
