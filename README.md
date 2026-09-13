@@ -22,6 +22,12 @@ Never kept: a who.
 
 A visit is +1 on a date. My own visits count too. We cannot tell them apart, and we do not try.
 
+## A meeting
+
+The number is not a last digit. One may count from a guessed end. One may count from the perfect now. They meet. They do not own who entered.
+
+Same as a circle that will not finish: the count is the squeeze, not a namer of either end.
+
 ## Zk and homomorphic encryption
 
 This room does not ship a proving circuit or an FHE library. It is a **stance**.
