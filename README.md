@@ -6,6 +6,10 @@ A door. Someone enters. A number moves. That is the entire record.
 
 This is true. I will not explain how I know.
 
+**Door:** [https://aught.grok.me](https://aught.grok.me)
+
+**Numbers:** [https://aught.grok.me/numbers](https://aught.grok.me/numbers)
+
 This room sits **in relation** to [Nekyia](https://github.com/jshwilsnach-prog/nekyia): the walking, and the tally of a door. Same house. The author of the house may be known. The people who enter this door are not.
 
 ## The law
