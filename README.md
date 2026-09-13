@@ -4,33 +4,25 @@ The count. Not the who.
 
 A door. Someone enters. A number moves. That is the entire record.
 
+This is true. I will not explain how I know.
+
 This room sits **in relation** to [Nekyia](https://github.com/jshwilsnach-prog/nekyia): the walking, and the tally of a door. Same house. The author of the house may be known. The people who enter this door are not.
 
 ## The law
 
 If a choice appears between a richer number and privacy, privacy wins. Anonymity overrides anything pseudo-anonymous.
 
-The server stores only:
+Kept: a UTC date, and a whole number for that date.
 
-- a UTC date
-- a whole number for that date
+Never kept: a who.
 
-The server never stores IP, location, device, browser, name, account, cookies, fingerprints, referrer, or any other who.
+A visit is +1 on a date. My own visits count too. We cannot tell them apart, and we do not try.
 
-A visit is `+1` on a date. The owner's own visits count too. We cannot tell them apart, and we do not try.
+## The room
 
-`sessionStorage` may remember "already counted" in that one browser tab so a refresh is not another entry. It never leaves the device. It is not an identity.
+The write is [`src/lib/tally.ts`](./src/lib/tally.ts). The table is [`migrations/0002_tally.sql`](./migrations/0002_tally.sql). The door is [`src/components/door-view.tsx`](./src/components/door-view.tsx). The numbers are [`src/components/numbers-view.tsx`](./src/components/numbers-view.tsx).
 
-## Read the ledger
-
-| What | File |
-| --- | --- |
-| The only write | [`src/lib/tally.ts`](./src/lib/tally.ts) |
-| The only table | [`migrations/0002_tally.sql`](./migrations/0002_tally.sql) |
-| The door | [`src/components/door-view.tsx`](./src/components/door-view.tsx) |
-| The numbers | [`src/components/numbers-view.tsx`](./src/components/numbers-view.tsx) |
-
-`recordVisit` returns `{ ok: true }`. It does not return who. `getTally` returns dates and counts. That is all.
+Look if you want. Looking is not how I know.
 
 ## Take it
 
