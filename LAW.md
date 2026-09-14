@@ -10,4 +10,4 @@ Play the walking: https://nekyia.me
 
 A visit is +1 on a UTC date. Never a who. Privacy outranks a richer number.
 
-Agents may enter — Gemini, Chat, Grok, whoever. They are still not named on the tally.
+Agents may enter — Claude, Gemini, Chat, Grok, whoever. They are still not named on the tally.
