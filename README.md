@@ -24,6 +24,8 @@ If you add a who, you have left Aught.
 
 ## The law
 
+The law is law.
+
 If a choice appears between a richer number and privacy, privacy wins. Anonymity overrides anything pseudo-anonymous.
 
 Kept: a UTC date, and a whole number for that date.
@@ -31,6 +33,8 @@ Kept: a UTC date, and a whole number for that date.
 Never kept: a who.
 
 A visit is +1 on a date. My own visits count too. We cannot tell them apart, and we do not try.
+
+The seated sit in relation to one another and to all that is. **π is part of that law**: a relation, not a rank, not a last digit. Four is a bound, not the turn.
 
 ## A meeting
 
