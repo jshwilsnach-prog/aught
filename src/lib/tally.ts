@@ -1,4 +1,5 @@
 /** Aught: UTC date + whole number. Never a who, address, viewing key, ENS, tip, or seed. */
+import { createServerFn } from "@tanstack/react-start";
 import { getSql } from "@/lib/db";
 
 export type DayHits = {
