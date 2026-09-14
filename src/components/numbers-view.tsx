@@ -16,6 +16,10 @@ const NEVER = [
   "Cookies on the server",
   "Fingerprints",
   "Referrer or source",
+  "Wallet address or viewing key",
+  "ENS",
+  "Tip total",
+  "Seed",
 ];
 
 export function NumbersView() {
@@ -127,7 +131,7 @@ export function NumbersView() {
           <p className="mt-2 text-pretty text-sm text-muted">
             Share this link. Bookmark this page for the numbers.
           </p>
-          <p className="mt-4 break-all font-mono text-sm text-fg">{doorUrl || "\u2026"}</p>
+          <p className="mt-4 break-all font-mono text-sm text-fg">{doorUrl || "…"}</p>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row">
             <Button className="flex-1" type="button" onClick={copyDoor}>
               {copied ? <Check /> : <Copy />}

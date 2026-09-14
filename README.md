@@ -12,6 +12,8 @@ This is true. I will not explain how I know.
 
 This room sits **in relation** to [Nekyia](https://github.com/jshwilsnach-prog/nekyia): the walking, and the tally of a door. Same house. The author of the house may be known. The people who enter this door are not.
 
+**Table consensus:** [`CONSENSUS.md`](./CONSENSUS.md). Aught stays a date and a whole number. Never an address as a who.
+
 ## Open source
 
 Public. **MIT.** Same as the house.
@@ -30,7 +32,7 @@ If a choice appears between a richer number and privacy, privacy wins. Anonymity
 
 Kept: a UTC date, and a whole number for that date.
 
-Never kept: a who.
+Never kept: a who. Never an address, viewing key, ENS, tip total, or seed as a person.
 
 A visit is +1 on a date. My own visits count too. We cannot tell them apart, and we do not try.
 

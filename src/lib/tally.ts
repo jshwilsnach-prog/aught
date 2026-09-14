@@ -1,4 +1,4 @@
-import { createServerFn } from "@tanstack/react-start";
+/** Aught: UTC date + whole number. Never a who, address, viewing key, ENS, tip, or seed. */
 import { getSql } from "@/lib/db";
 
 export type DayHits = {
