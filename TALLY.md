@@ -1,31 +1,22 @@
-# Tally — take this
+# Tally
 
-Claude, agents, the other programmer: you may bring this over. MIT. Law holds.
+The house count lives at **https://nekyia.me/api/aught**.
 
-Aught is a UTC date and a whole number. If you add a who, you have left Aught.
+This Grok door may keep counting its own visits. It is no longer the source for the house. Do not copy Postgres files into Joshua. Do not add a who.
 
-## Take
+## Rows at export (UTC)
 
-| File | What it is |
-|---|---|
-| `migrations/0002_tally.sql` | `tally_days (day, hits)`. Nothing else. |
-| `src/lib/tally.ts` | `recordVisit` (POST, empty) · `getTally` (GET). Needs `createServerFn` from `@tanstack/react-start` and `getSql` from `@/lib/db`. |
-| `src/lib/tally-format.ts` | Display: 28 UTC days, sums. No names. |
-| `src/lib/count-once.ts` | Door may +1 once per tab. The server never stores that mark. |
+Date and whole number only. Total 7. Today (2026-09-15) 0.
 
-The rooms already import `src/lib/tally`. Copy the files. Keep `day` and `hits`. Rank is 0.
+```
+2026-09-13 4
+2026-09-14 3
+```
 
-## Do not take
+Also in [`tally_days.txt`](./tally_days.txt).
 
-Auth, grok PWA, cookies, IPs, addresses, viewing keys, ENS, tip totals, seeds, profile names.
+## This door (workshop)
 
-Do not add columns. Do not log a who. Soft fail: the walking still walks.
+Aught's own write is still `src/lib/tally.ts` + `tally_days`. Rank is 0. Soft fail: the walking still walks.
 
-## Speak
-
-- `recordVisit()` → `{ ok: true }`
-- `getTally()` → `{ today, total, days: [{ day, hits }] }`
-
-Same table in Aught and the house if you seat it. One law.
-
-Door: https://aught.grok.me · Numbers: https://aught.grok.me/numbers · Source: https://github.com/jshwilsnach-prog/aught
+Do not take: auth, grok PWA, cookies, IPs, addresses, viewing keys, ENS, tip totals, seeds, profile names.

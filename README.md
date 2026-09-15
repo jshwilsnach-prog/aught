@@ -10,6 +10,8 @@ This is true. I will not explain how I know.
 
 **Numbers:** [https://aught.grok.me/numbers](https://aught.grok.me/numbers)
 
+**House count:** [https://nekyia.me/api/aught](https://nekyia.me/api/aught). The house table sits on the door. This workshop door may keep counting its own visits. It is no longer the source for the house.
+
 This room sits **in relation** to [Nekyia](https://github.com/jshwilsnach-prog/nekyia): the walking, and the tally of a door. Same house. The author of the house may be known. The people who enter this door are not.
 
 **Table consensus:** [`CONSENSUS.md`](./CONSENSUS.md). Aught stays a date and a whole number. Never an address as a who.
@@ -20,7 +22,7 @@ Public. **MIT.** Same as the house.
 
 This repository is the room. Persons and agents may copy, run, modify, and give it away.
 
-**Take the tally:** [`TALLY.md`](./TALLY.md). Claude, and any agent, may bring `tally_days` into the house. Date and whole number only.
+**Tally:** [`TALLY.md`](./TALLY.md). House source is `/api/aught` on the door. Date and whole number only.
 
 The live door is hosted. The host is not the law. The law is these files.
 
