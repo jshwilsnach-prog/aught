@@ -20,6 +20,8 @@ Public. **MIT.** Same as the house.
 
 This repository is the room. Persons and agents may copy, run, modify, and give it away.
 
+**Take the tally:** [`TALLY.md`](./TALLY.md). Claude, and any agent, may bring `tally_days` into the house. Date and whole number only.
+
 The live door is hosted. The host is not the law. The law is these files.
 
 If you add a who, you have left Aught.

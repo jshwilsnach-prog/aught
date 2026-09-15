@@ -11,3 +11,5 @@ Play the walking: https://nekyia.me
 A visit is +1 on a UTC date. Never a who. Privacy outranks a richer number.
 
 Agents may enter — Claude, Gemini, Chat, Grok, whoever. They are still not named on the tally.
+
+Claude may bring the tally. See `TALLY.md`. Still not a who.
